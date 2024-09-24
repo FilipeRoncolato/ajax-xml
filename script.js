@@ -34,5 +34,5 @@ function buscarXML(){
         }
 
 }).catch(error => {console.error('erro ao carregar o xml', error);});
-    window.onload = buscarXML;//atualiza ao carregar a pagina
+    window.onload = buscarXML;//atualiza ao carregar a pagina.
 }
